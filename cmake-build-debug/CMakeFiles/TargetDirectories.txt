@@ -1,0 +1,3 @@
+/Users/gdougal/Desktop/TSO1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/gdougal/Desktop/TSO1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/gdougal/Desktop/TSO1/cmake-build-debug/CMakeFiles/CT01.dir
