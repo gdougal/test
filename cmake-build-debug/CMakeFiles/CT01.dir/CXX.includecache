@@ -6,9 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/Users/gdougal/Desktop/TSO1/main.cpp
+/Users/gdougal/Desktop/TSO1/big_int.cpp
+big_int.hpp
+/Users/gdougal/Desktop/TSO1/big_int.hpp
+
+/Users/gdougal/Desktop/TSO1/big_int.hpp
+deque
+-
 iostream
 -
+
+/Users/gdougal/Desktop/TSO1/main.cpp
 vector
 -
+list
+-
+map
+-
+big_int.hpp
+/Users/gdougal/Desktop/TSO1/big_int.hpp
 

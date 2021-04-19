@@ -3,4 +3,4 @@ project(CT01)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(CT01 main.cpp)
+add_executable(CT01 main.cpp big_int.cpp big_int.hpp)

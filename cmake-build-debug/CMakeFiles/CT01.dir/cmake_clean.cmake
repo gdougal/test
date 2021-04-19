@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/CT01.dir/big_int.cpp.o"
   "CMakeFiles/CT01.dir/main.cpp.o"
   "CT01"
   "CT01.pdb"

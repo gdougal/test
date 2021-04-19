@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/gdougal/Desktop/TSO1/big_int.cpp">
+			<Option target="CT01"/>
+		</Unit>
+		<Unit filename="/Users/gdougal/Desktop/TSO1/big_int.hpp">
+			<Option target="CT01"/>
+		</Unit>
 		<Unit filename="/Users/gdougal/Desktop/TSO1/main.cpp">
 			<Option target="CT01"/>
 		</Unit>
