@@ -49,7 +49,7 @@ void bot_ugadun::listen_answer(const size_t n_try, size_t min, size_t max) {
 
 void bot_ugadun::emplace(const uint32_t &second, ...) {
 	if (second < 9999) {
-		fib_small.emplace_back(second);
+		fib_small.__emplace_back(second);
 	}
 }
 
@@ -64,7 +64,7 @@ void bot_ugadun::generate_phrase() {
 	const size_t	serenus		= fib_large.upper_bound(big_int(right_num) + big_int("298611126818977066911787"))->second;
 	const size_t	sammoniucs	= fib_large.upper_bound(big_int(right_num) + big_int("354224848179261908310"))->second;
 	std::string			pizza_ticket(11, '0');
-	for (int i = 0; i < pizza_ticket.size(); ++i) {
+	for (size_t i = 0; i < pizza_ticket.size(); ++i) {
 		if (i == 0 || i == 3 || i == 5 || i == 7 || i == 10) {
 			pizza_ticket[i] = (char)quintus;
 		}
