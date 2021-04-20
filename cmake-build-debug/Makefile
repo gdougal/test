@@ -169,6 +169,33 @@ big_int.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CT01.dir/build.make CMakeFiles/CT01.dir/big_int.cpp.s
 .PHONY : big_int.cpp.s
 
+bot.o: bot.cpp.o
+
+.PHONY : bot.o
+
+# target to build an object file
+bot.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CT01.dir/build.make CMakeFiles/CT01.dir/bot.cpp.o
+.PHONY : bot.cpp.o
+
+bot.i: bot.cpp.i
+
+.PHONY : bot.i
+
+# target to preprocess a source file
+bot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CT01.dir/build.make CMakeFiles/CT01.dir/bot.cpp.i
+.PHONY : bot.cpp.i
+
+bot.s: bot.cpp.s
+
+.PHONY : bot.s
+
+# target to generate assembly for a file
+bot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CT01.dir/build.make CMakeFiles/CT01.dir/bot.cpp.s
+.PHONY : bot.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -208,6 +235,9 @@ help:
 	@echo "... big_int.o"
 	@echo "... big_int.i"
 	@echo "... big_int.s"
+	@echo "... bot.o"
+	@echo "... bot.i"
+	@echo "... bot.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

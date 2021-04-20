@@ -4,6 +4,11 @@
 CMakeFiles/CT01.dir/big_int.cpp.o: ../big_int.cpp
 CMakeFiles/CT01.dir/big_int.cpp.o: ../big_int.hpp
 
+CMakeFiles/CT01.dir/bot.cpp.o: ../big_int.hpp
+CMakeFiles/CT01.dir/bot.cpp.o: ../bot.cpp
+CMakeFiles/CT01.dir/bot.cpp.o: ../bot.hpp
+
 CMakeFiles/CT01.dir/main.cpp.o: ../big_int.hpp
+CMakeFiles/CT01.dir/main.cpp.o: ../bot.hpp
 CMakeFiles/CT01.dir/main.cpp.o: ../main.cpp
 
