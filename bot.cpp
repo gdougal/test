@@ -11,8 +11,9 @@ bot_ugadun::bot_ugadun() {
 
 bot_ugadun::~bot_ugadun() {}
 
-void bot_ugadun::listen_answer(const size_t n_try, size_t min, size_t max) {
+void bot_ugadun::listen_answer(size_t n_try, size_t min, size_t max) {
 	if (n_try == 0) {
+		++n_try;
 		max = fib_small.size();
 	}
 	else if (n_try == 14) {
@@ -43,7 +44,7 @@ void bot_ugadun::listen_answer(const size_t n_try, size_t min, size_t max) {
 	}
 	else {
 		std::cout << "Please, try to right answer" << std::endl;
-		listen_answer(n_try + 1, min, max);
+		listen_answer(n_try, min, max);
 	}
 }
 
