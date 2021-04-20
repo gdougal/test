@@ -6,23 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/Users/gdougal/Desktop/TSO1/big_int.hpp
+/home/gdougal/Documents/test/big_int.hpp
 deque
 -
 iostream
 -
 
-/Users/gdougal/Desktop/TSO1/bot.cpp
+/home/gdougal/Documents/test/bot.cpp
 bot.hpp
-/Users/gdougal/Desktop/TSO1/bot.hpp
+/home/gdougal/Documents/test/bot.hpp
 
-/Users/gdougal/Desktop/TSO1/bot.hpp
+/home/gdougal/Documents/test/bot.hpp
 big_int.hpp
-/Users/gdougal/Desktop/TSO1/big_int.hpp
+/home/gdougal/Documents/test/big_int.hpp
 vector
 -
 list
 -
 map
 -
+
+/home/gdougal/Documents/test/main.cpp
+bot.hpp
+/home/gdougal/Documents/test/bot.hpp
 

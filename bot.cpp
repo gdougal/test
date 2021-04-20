@@ -23,7 +23,7 @@ void bot_ugadun::listen_answer(size_t n_try, size_t min, size_t max) {
 	size_t pos = min + (max - min)/2;
 	std::string	answer;
 	std::cout << "Is right num " << std::string(std::to_string(fib_small.at(pos))) << " ?" << std::endl;
-	std::cout << "(commands: right/bigger/small) : ";
+	std::cout << "(commands: right/bigger/less) : ";
 	std::getline(std::cin, answer);
 	if (std::cin.eof())
 		exit(0);
@@ -50,7 +50,7 @@ void bot_ugadun::listen_answer(size_t n_try, size_t min, size_t max) {
 
 void bot_ugadun::emplace(const uint32_t &second, ...) {
 	if (second < 9999) {
-		fib_small.__emplace_back(second);
+		fib_small.emplace_back(second);
 	}
 }
 

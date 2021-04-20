@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/gdougal/Desktop/TSO1/big_int.cpp" "/Users/gdougal/Desktop/TSO1/cmake-build-debug/CMakeFiles/CT01.dir/big_int.cpp.o"
-  "/Users/gdougal/Desktop/TSO1/bot.cpp" "/Users/gdougal/Desktop/TSO1/cmake-build-debug/CMakeFiles/CT01.dir/bot.cpp.o"
-  "/Users/gdougal/Desktop/TSO1/main.cpp" "/Users/gdougal/Desktop/TSO1/cmake-build-debug/CMakeFiles/CT01.dir/main.cpp.o"
+  "/home/gdougal/Documents/test/big_int.cpp" "/home/gdougal/Documents/test/cmake-build-debug/CMakeFiles/CT01.dir/big_int.cpp.o"
+  "/home/gdougal/Documents/test/bot.cpp" "/home/gdougal/Documents/test/cmake-build-debug/CMakeFiles/CT01.dir/bot.cpp.o"
+  "/home/gdougal/Documents/test/main.cpp" "/home/gdougal/Documents/test/cmake-build-debug/CMakeFiles/CT01.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

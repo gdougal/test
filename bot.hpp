@@ -30,7 +30,7 @@ public:
 			return;
 		emplace(second, iterator);
 		if (iterator == 31) {
-			fibonnachi_fill(big_int(second), big_int(first + second), iterator + 1);
+			return fibonnachi_fill(big_int(second), big_int(first + second), iterator + 1);
 		}
 		fibonnachi_fill(second, first + second, iterator + 1);
 	}
